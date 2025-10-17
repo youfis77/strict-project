@@ -1,0 +1,40 @@
+footer{
+    width: 100%;
+    position: relative;
+    padding: 80px 40px;
+    background-color: black;
+    color: azure;
+}
+
+h3{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%); 
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    z-index: 99;
+}
+
+.footer-icons{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%); 
+    margin: 0;
+    z-index: 100;
+}
+
+.footer-icons img{
+    width: 64px;
+    border-radius: 8px;
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-icons img:hover{
+    transform: scale(1.2);
+}

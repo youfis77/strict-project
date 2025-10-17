@@ -1,0 +1,68 @@
+header {
+  /* margin-bottom: 20px; */
+  padding-bottom: 40px;
+  background-color: black;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+  width: 120px;
+}
+.logo h1{
+  display: none;
+  color: azure;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.img-logo {
+  width: 70px;
+  border-radius: 50%;
+  
+}
+
+.logo:hover h1{
+  display: block;
+}
+.logo:hover .img-logo{
+  display: none;
+}
+
+
+
+
+
+
+nav {
+  position: absolute;
+  top: 46px;
+  right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: azure;
+}
+
+
+nav ul li a:hover {
+  background-color: rgba(70, 207, 249, 0.856);
+  padding: 7px 15px;
+
+  transition: all 0.15s ease-in;
+  transform: scale(2);
+  border-radius: 5px;
+
+}

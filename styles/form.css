@@ -1,0 +1,94 @@
+
+.main-form{
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  background: url(../imgs/formbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative; /* عشان اخليهم في عصنر الديف */
+}
+
+.main-form form {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-form form .inp{
+  width: 420px;
+  background-color: transparent;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-form form textarea{
+  width: 420px;
+  border-radius: 5px;
+  background-color: transparent;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 10px;
+  resize: none;
+  border: 3px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-form form .inp::placeholder,
+.main-form form textarea::placeholder{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.main-form form .checkbox-div{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  float: left;
+  margin-top: 7px;
+}
+.main-form form button{
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgba(70, 207, 249, 0.856);
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+form button:hover{
+  padding: 7px 12px;
+  transition: all 1s;
+}
+
+
+
+
+
+

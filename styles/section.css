@@ -1,0 +1,80 @@
+
+
+section .allHeading{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section .allHeading h1{
+  padding-bottom: 20px;
+  margin: 0 auto;
+  color: azure;
+}
+
+section .allHeading p{
+  width: 600px;
+  margin: 0 auto;
+  color: azure;
+}
+
+section{
+  padding: 125px;
+  background-color: black;
+  border-bottom: 1px dashed azure;
+}
+
+
+section .allIcons{
+  margin:0 auto;
+  /* height: 25vh; */
+  text-align: center;
+}
+
+
+section .allIcons div{
+  display: inline-block;
+  text-align: center;
+  color: azure;
+  border: 1px solid azure;
+  padding: 110px 18px;
+  margin-left: 5px;
+  background:
+    linear-gradient(45deg, #fff, #fff) left / 0% 100% no-repeat,
+    linear-gradient(45deg, black, black);
+  transition:
+    background-size 1s ease,
+    color 1s ease,
+    padding 1s ease,
+    border-color 1s ease;
+}
+
+section .allIcons div:hover{
+  background-size: 100% 100%, 100% 100%;
+  color: black;
+  padding: 120px 20px;
+  border-color: black;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7) inset;
+}
+
+
+
+
+section .allIcons div img{
+  width: 50px;
+  margin-bottom: 10px;
+}
+section .allIcons div p{
+  margin-top: 10px;
+}
+
+
+section .allIcons div p{
+  width: 320px;
+}
+
+
+
